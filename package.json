@@ -1,0 +1,25 @@
+{
+  "name": "twitter-facts-bot",
+  "version": "1.0.0",
+  "description": "A bot using the Facts API Ninjas API to post random facts on Twitter. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [
+    "Twitter",
+    "facts",
+    "bot",
+    "AI",
+    "GPT-3",
+    "OpenAI API"
+  ],
+  "author": "Davide Zambiasi",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.1.0",
+    "request": "^2.88.2",
+    "twitter-api-v2": "^1.14.0"
+  }
+}
