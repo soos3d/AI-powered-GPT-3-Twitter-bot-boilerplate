@@ -68,7 +68,7 @@ async function sendTweet(fact, aiResponse) {
       } catch (error) {
           console.log(`Something went wrong. ${error}`)
       }
-  } else if (thread.length == 3) {
+  } if (thread.length == 3) {
       try {
           console.log("Sending Tweet...");
 
