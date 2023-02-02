@@ -48,11 +48,11 @@ Run the script
 npm run start
 ```
 
-This will run the `index.js` file running the bot. The bot is set up by default to send a request and tweet the response every 6 hours; you can change this by editing the `setInterval()` function in the `index.js` file.
+This will run the `index.js` file running the bot. The bot is set up by default to send a request and tweet the response every 3 hours; you can change this by editing the `setInterval()` function in the `index.js` file.
 
 ```js
 // Run main function every 6 hours
-setInterval(main, 21600000); // 6 hours
+setInterval(main, 10800000); // 10800000 milliseconds = 3 hours
 ```
 
 ## Prerequisites

@@ -11,5 +11,5 @@ async function main() {
 // Run main function once at the start of the script
 main();
 
-// Run main function every 6 hours
-setInterval(main, 21600000); // 6 hours
+// Run main function every 3 hours
+setInterval(main, 10800000); // 10800000 milliseconds = 3 hours
